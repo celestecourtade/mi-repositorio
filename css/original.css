@@ -1,0 +1,463 @@
+
+/*P R I M E R   S E C C I O N   I N I C I O */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Frank+Ruhl+Libre&family=Heebo&family=Josefin+Sans:wght@450&family=Montserrat:wght@400;500&family=Open+Sans:wght@300;600&family=Rubik:ital,wght@0,400;1,800&family=Signika+Negative&display=swap');
+
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+
+html,
+body {
+    max-width: 100%;
+    font-family: 'Heebo', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+} 
+
+
+/*HEADER MISMO PARA TODAS LAS SECCIONES*/
+.bg-mi-fondo {
+    background-color: #006494 ;
+    
+}
+
+.color-enlace {
+    color: white !important; 
+}
+
+/*MAIN*/
+
+
+/*CARRUSEL DE IMAGENES*/
+
+.carousel-item {
+    width: 100%;
+    height: 525px;
+}
+
+/* GALERIA DE IMAGENES*/
+
+
+.destinos h1 {
+    background-color: #0582CA ;
+    margin: 9px;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.card-group {
+    padding: 0px 30px 20px 60px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card-img-top {
+    height: 230px;
+}
+
+.card-body {
+    background-color: #1f85cd;
+}
+
+.card-title {
+    text-align: center;
+    color: white !important;
+}
+
+.card-text {
+    text-align: center;
+    color: white;
+}
+
+
+/* ACERCA DE NOSOTROS*/
+
+.nosotros h2 {
+    background-color: #0582CA ;
+    margin: 9px;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.nosotros p {
+    padding: 10px;
+    background-color: rgb(0 0 0 / 12%);
+    margin-inline: 10px;
+}
+
+
+
+/*BANNER*/
+
+.recomendaciones-clientes h2 {
+    background-color: #0582CA ;
+    margin: 9px;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+ /*BANNER*/
+
+ .imagenbanner {
+    width: 100%;
+}
+
+
+
+/*mismo footer para todas las secciones*/
+
+/*FOOTER*/
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    background-color:#006494; 
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    grid-column: span 2;
+    text-align: center;
+  }
+  
+  .footer-content h3 {
+  text-align: center;
+  }
+
+  .socials {
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+  }
+  
+  .socials li {
+    display: inline-block;
+  }
+  
+  .socials a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    grid-column: span 2;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom span {
+    color: #ba9913;
+  }
+
+/*S E G U N D A   S E C C I O N    D E S T I N O S*/
+
+/*main*/
+
+
+.destinos-1 h1 {
+    background-color: #0582CA ;
+    margin: 9px;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.section-destinos {
+    padding: 10px;
+    display: flex;
+}
+
+.destinos-text-1 {
+
+    background-color: #4184bd;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+/* T E R C E R A    S E C C I O N   S E R V I C I O S  C O R P O R A T I V O S*/
+
+/*main*/
+
+.servicio-empresa {
+    background-image:   url('../img/playadefondo.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 10px;
+}
+
+.servicios h2 {
+    background-color: #0582CA ;
+    margin: 9px;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff; 
+}
+
+.empresa h1 {
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 96, 140);
+}
+
+.empresa-text  {
+    padding: 10px;
+    color:  rgb(0, 66, 97);
+}
+
+.corporativos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0 0 0 / 12%);
+    margin: 10px;
+    
+  }
+  
+  .corporativos {
+    text-align: center; 
+    margin: 0 10px; 
+  }
+  
+  .img-servicios {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .servicios-text h3 {
+    font-size: 15px;
+  }
+
+
+/* C U A R T A   S E C C I O N    A C E R CA   D E   N O S O T R O S*/
+
+
+/*main*/
+.seccionnosotros h1 {
+    background-color: #0582CA ;
+    margin: 9px;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.imagenbanner-1 {
+    width: 100%;
+}
+
+.imagensummer {
+  height: 650px;
+  padding: 10px;
+}
+
+.summer-text {
+    display: flex;
+}
+
+.seccion-nosotros {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+/*Q U I N T A   S E C C I O N   C O N T A C T O*/
+
+/*main*/
+
+
+/*FORMULARIO*/
+.seccion-contacto{
+    background-image:   url('../img/islasmaldivas.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+}
+   
+
+.formulario {
+    background-color: #2798df;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+  }
+
+.formulario {
+    margin:  auto;
+    max-width: 500px;
+  }
+  
+ 
+  .formulario h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+  
+  .formulario-contacto {
+    margin-bottom: 15px;
+  }
+  
+  .formulario-contacto label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-servicios {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  .boton {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .boton:hover {
+    background-color: #005c92;
+}
+
+/* M E D I A  Q U E R I E S /*
+
+/* Media query para tablet*/
+
+@media (max-width: 768px) {
+
+    /*index*/
+    .carousel {
+    height: 390px; }
+    .card-group {
+        padding-inline: 20px;
+    }
+
+/*seccion destinos*/
+    .section-1 {
+    display: flex;
+    }
+    
+    /*seccion servicios corporativos*/
+    .corporativos-container {
+    flex-direction: column;
+    }
+    /*seccion acerca de nosotros*/
+    .imagensummer {
+        display: none;
+    }
+}
+  
+
+/* Media query para mobile*/
+
+
+@media (max-width: 320px) {
+
+    /*index*/
+    .carousel {
+    display: none;}
+ 
+    .destinos h2 {
+        font-size: 15px;
+    }
+
+    .nosotros h2 {
+        font-size: 15px;
+    }
+    .recomendaciones-clientes h2 {
+        font-size: 15px;
+    }
+
+
+    /*seccion destinos*/
+
+
+    .destinos-1 h2 {
+        font-size: 15px;
+    }
+
+    .section-destinos {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .img {
+        width: 300px;
+    }
+
+    /*servicios corporativos*/
+    .empresa h1 {
+        font-size: 15px;
+
+    }
+
+     .servicios h2 {
+        font-size: 15px;
+     }
+    /*seccion acerca de nostros*/
+     .seccionnosotros h2 {
+        font-size: 15px;
+
+     }
+
+     /*seccion contacto*/
+     .formulario { 
+     margin: 20px 20px 20px 20px;
+
+     }
+
+     .formulario-servicios h3 {
+        font-size: 15px;
+
+     }
+  }
+  
