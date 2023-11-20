@@ -1,0 +1,13 @@
+//map 
+$colores:(
+    formulario: #2798df,
+    fondo: #006494,
+    card-body: #1f85cd
+);
+//each
+@each $nombre, $color in $colores{
+ .color-#{$nombre}{               
+    background-color: $color;    
+ }
+
+}

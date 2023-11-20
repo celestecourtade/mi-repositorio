@@ -1,0 +1,93 @@
+/* M E D I A  Q U E R I E S /*
+
+/* Media query para tablet*/
+
+@media (max-width: 768px) {
+
+    /*index*/
+    .carousel {
+    height: 390px; }
+    .card-group {
+        padding-inline: 20px;
+    }
+
+/*seccion destinos*/
+    .section-1 {
+    display: flex;
+    }
+    
+    /*seccion servicios corporativos*/
+    .corporativos-container {
+    flex-direction: column;
+    }
+    /*seccion acerca de nosotros*/
+    .imagensummer {
+        display: none;
+    }
+}
+  
+
+/* Media query para mobile*/
+
+
+@media (max-width: 320px) {
+
+    /*index*/
+    .carousel {
+    display: none;}
+ 
+    .destinos h2 {
+        font-size: 15px;
+    }
+
+    .nosotros h2 {
+        font-size: 15px;
+    }
+    .recomendaciones-clientes h2 {
+        font-size: 15px;
+    }
+
+
+    /*seccion destinos*/
+
+
+    .destinos-1 h2 {
+        font-size: 15px;
+    }
+
+    .section-destinos {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .img {
+        width: 300px;
+    }
+
+    /*servicios corporativos*/
+    .empresa h1 {
+        font-size: 15px;
+
+    }
+
+     .servicios h2 {
+        font-size: 15px;
+     }
+    /*seccion acerca de nostros*/
+     .seccionnosotros h2 {
+        font-size: 15px;
+
+     }
+
+     /*seccion contacto*/
+     .formulario { 
+     margin: 20px 20px 20px 20px;
+
+     }
+
+     .formulario-servicios h3 {
+        font-size: 15px;
+
+     }
+  }
+  

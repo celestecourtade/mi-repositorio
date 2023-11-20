@@ -1,0 +1,53 @@
+/* T E R C E R A    S E C C I O N   S E R V I C I O S  C O R P O R A T I V O S*/
+
+/*main*/
+
+.servicio-empresa {
+    background-image:   url('../img/playadefondo.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 10px;
+    
+}
+ .servicios h2 {
+    background-color: $blue ;
+    margin: 9px;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    color: $blanco;
+}
+
+.empresa h1 {
+    text-align: center;
+    padding: 20px;
+    color: $azul-empresa;
+}
+
+.empresa-text  {
+    padding: 10px;
+    color:  $azul-text;
+}
+
+.corporativos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $negro;
+    margin: 10px;
+    
+  }
+  
+  .corporativos {
+    text-align: center; 
+    margin: 0 10px; 
+  }
+  
+  .img-servicios {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .servicios-text h3 {
+    font-size: 15px;
+  }

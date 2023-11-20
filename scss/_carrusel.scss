@@ -1,0 +1,10 @@
+/*MAIN*/
+
+
+/*CARRUSEL DE IMAGENES*/
+
+.carousel-item {
+    @include w-h (100%, 525px);
+    width: 100%;
+    height: 525px;
+}

@@ -1,0 +1,60 @@
+/*Q U I N T A   S E C C I O N   C O N T A C T O*/
+
+/*main*/
+
+
+/*FORMULARIO*/
+
+.seccion-contacto{
+    background-image:   url('../img/islasmaldivas.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+}
+
+.formulario {
+    margin:  auto;
+    max-width: 500px;
+    background-color: $celeste-formulario;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px $black;
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+  }
+  
+  .formulario-contacto {
+    margin-bottom: 15px;
+
+     label {
+        display: block;
+        font-weight: bold;
+      }
+    }
+  
+ .form-servicios {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid $color-form;
+   border-radius: 5px;
+   }
+
+   .boton {
+    background-color: $color-boton;
+    color: $blanco;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+
+    &:hover {
+        background-color: $color-btn;
+    }
+  }
+      
+       
