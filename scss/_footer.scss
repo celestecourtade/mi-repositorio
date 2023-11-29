@@ -1,42 +1,49 @@
+
+  /*mismo footer para todas las secciones*/
+
+/*FOOTER*/
+
 .footer {
-    display: grid;
-    gap: 10px;
-    background-color: $azul-footer;
-    color: $blanco;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  background-color:#006494; 
+  color: #ffffff;
+  padding: 20px;
+}
 
-    &-content {
-    grid-column: span 2;
-    text-align: center;
-    }
+.footer-content {
+  grid-column: span 2;
+  text-align: center;
+}
 
-    &-content h3 {
-    text-align: center;
-    }
-  }
+.footer-content h3 {
+text-align: center;
+}
 
-  .socials {
-    list-style: none;
-    padding: 0;
-    gap: 10px;
+.socials {
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
 
-    &-li {
-    display: inline-block;
-    }
-    &-a {
-    text-decoration: none;
-    color: $blanco;
-    }
-  }
+.socials li {
+  display: inline-block;
+}
 
-  .footer-bottom {
-    text-align: center;
-    grid-column: span 2;
-    padding-top: 10px;
+.socials a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
-    span {
-    color: $amarillo;
-    }
-  }
-  
+.footer-bottom {
+  text-align: center;
+  grid-column: span 2;
+  padding-top: 10px;
+}
+
+.footer-bottom span {
+  color: #ba9913;
+}
+
   

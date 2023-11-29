@@ -1,17 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Frank+Ruhl+Libre&family=Heebo&family=Josefin+Sans:wght@450&family=Montserrat:wght@400;500&family=Open+Sans:wght@300;600&family=Rubik:ital,wght@0,400;1,800&family=Signika+Negative&display=swap");
-.color-formulario {
-  background-color: #2798df;
-}
-
-.color-fondo {
-  background-color: #006494;
-}
-
-.color-card-body {
-  background-color: #1f85cd;
-}
-
 /*P R I M E R   S E C C I O N   I N I C I O */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Frank+Ruhl+Libre&family=Heebo&family=Josefin+Sans:wght@450&family=Montserrat:wght@400;500&family=Open+Sans:wght@300;600&family=Rubik:ital,wght@0,400;1,800&family=Signika+Negative&display=swap");
 /*RESET*/
 * {
   margin: 0;
@@ -19,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/*HEADER*/
 html,
 body {
   max-width: 100%;
@@ -48,7 +37,7 @@ a {
   text-decoration: none;
 }
 
-/*HEADER*/
+/*HEADER MISMO PARA TODAS LAS SECCIONES*/
 .bg-mi-fondo {
   background-color: #006494;
 }
@@ -81,13 +70,6 @@ a {
 }
 
 .card {
-  margin: 10px;
-}
-.card-img-top {
-  height: 230px;
-}
-
-.card {
   cursor: default;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
@@ -97,13 +79,19 @@ a {
   transform: translateY(-3%);
 }
 
+.card-img-top {
+  height: 230px;
+}
+
 .card-body {
   background-color: #1f85cd;
 }
+
 .card-title {
   text-align: center;
   color: #ffffff !important;
 }
+
 .card-text {
   text-align: center;
   color: #ffffff;
@@ -139,17 +127,22 @@ a {
   width: 100%;
 }
 
+/*mismo footer para todas las secciones*/
+/*FOOTER*/
 .footer {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
   background-color: #006494;
   color: #ffffff;
   padding: 20px;
 }
+
 .footer-content {
   grid-column: span 2;
   text-align: center;
 }
+
 .footer-content h3 {
   text-align: center;
 }
@@ -159,10 +152,12 @@ a {
   padding: 0;
   gap: 10px;
 }
-.socials-li {
+
+.socials li {
   display: inline-block;
 }
-.socials-a {
+
+.socials a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -172,6 +167,7 @@ a {
   grid-column: span 2;
   padding-top: 10px;
 }
+
 .footer-bottom span {
   color: #ba9913;
 }
@@ -398,6 +394,17 @@ a {
   .formulario-servicios h3 {
     font-size: 15px;
   }
+}
+.color-formulario {
+  background-color: #2798df;
+}
+
+.color-fondo {
+  background-color: #006494;
+}
+
+.color-card-body {
+  background-color: #1f85cd;
 }
 
 /*# sourceMappingURL=style.css.map */

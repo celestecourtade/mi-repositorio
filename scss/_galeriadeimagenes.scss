@@ -2,25 +2,16 @@
 
 
 .destinos h1 {
-    background-color: $blue;
-    margin: 9px;
-    padding: 7px;
-    text-align: center;
-    font-size: 20px;
-    color: $blanco;
+  background-color: #0582CA ;
+  margin: 9px;
+  padding: 7px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 .card-group {
-    padding: 0px 30px 20px 60px;
-}
-
-.card {
-    margin: 10px;
-
-    &-img-top {
-      height: 230px;
-    }
-
+  padding: 0px 30px 20px 60px;
 }
 
 .card {
@@ -31,23 +22,25 @@
 .card:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3%);
-
 }
 
-.card  {
-    &-body {
-    background-color: $celeste-card;
-    }
 
-    &-title {
-      text-align: center;
-      color: $blanco !important;
-    }
+.card-img-top {
+  height: 230px;
+}
 
-    &-text {
-      text-align: center;
-      color: $blanco;
-    }
+.card-body {
+  background-color: #1f85cd;
+}
+
+.card-title {
+  text-align: center;
+  color: #ffffff !important;
+}
+
+.card-text {
+  text-align: center;
+  color: #ffffff;
 }
 
 
