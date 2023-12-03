@@ -75,7 +75,7 @@ a {
 }
 
 .card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-3%);
 }
 
@@ -108,7 +108,7 @@ a {
 }
 .nosotros p {
   padding: 10px;
-  background-color: #000000;
+  background-color: #d9d6d6;
   margin-inline: 10px;
 }
 
