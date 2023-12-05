@@ -73,6 +73,8 @@ a {
     text-align: center;
     font-size: 20px;
     color: #ffffff;
+    margin-inline: 69px;
+    margin-inline-end: 41px;
 }
 
 .card-group {
@@ -89,6 +91,9 @@ a {
     transform: translateY(-3%);
   }
   
+  .card {
+    margin: 10px;
+  }
 
 .card-img-top {
     height: 230px;
@@ -118,12 +123,16 @@ a {
     text-align: center;
     font-size: 20px;
     color: #ffffff;
+    margin-inline: 64px;
+    margin-inline-end: 38px;
 }
 
 .nosotros p {
     padding: 10px;
     background-color: #0000001f;
     margin-inline: 10px;
+    margin-inline: 64px;
+    margin-inline-end: 40px;
 }
 
 
@@ -137,6 +146,8 @@ a {
     text-align: center;
     font-size: 20px;
     color: #ffffff;
+    margin-inline: 64px;
+    margin-inline-end: 38px;
 }
 
  /*BANNER*/
@@ -196,8 +207,6 @@ a {
 
 /*S E G U N D A   S E C C I O N    D E S T I N O S*/
 
-/*main*/
-
 
 .destinos-1 h1 {
     background-color: #0582CA ;
@@ -218,7 +227,7 @@ a {
 .destinos-text-1 {
 
     background-color: #4184bd;
-    padding: 10px;
+    padding: 4px;
     text-align: center;
     color: #ffffff;
 }
