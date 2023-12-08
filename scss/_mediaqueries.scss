@@ -1,35 +1,60 @@
 /* M E D I A  Q U E R I E S /*
 
+/*media queris para desktop*/
+@media (min-width: 770px) and  (max-width: 1220px)  {
+    /*destinos*/
+    .section-destinos { 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .img {
+        max-width: 100%;
+        height: auto;
+      }
+
+    .corporativos-container {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+      
+    .seccion-nosotros {
+        display: flex;
+        flex-direction: column-reverse;
+   }
+
+   .seccionacercadenosotros {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+   }
+}
+
+
+
 /* Media query para tablet*/
-/*index*/
-
 @media (min-width: 481px) and  (max-width: 768px)  {
-
+    /*index*/
 .carousel {
     display: none;
-}
-
-/*destinos*/
-.destinos-1 h1 {
-font-size: 35px;
-}
-.section-destinos {
-    display: flex;
-    flex-direction: column;
-}
-
-.img {
-    width: 618px;
-}
-
-.destinos-text-1 {
-    padding: 20px;
-}
-
+  }
 .card-img-top {
     height: auto;
   }
 
+  /*destinos*/
+  .section-destinos { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
 
  /*servicios coporativos*/
 
@@ -49,12 +74,17 @@ font-size: 35px;
         margin-inline-end: 39px;
     }
 
+    /*contacto*/
+    .formulario {
+        width: auto;
+    }
 }
-  
+
+
 
 /* Media query para mobile*/
 
-@media (max-width: 480px) and (min-width: 320px) {  
+@media (max-width: 480px) and (min-width: 320px) {
     /*index*/
     .carousel {
         display: none; 
@@ -68,29 +98,31 @@ font-size: 35px;
     .imagenbanner {
         display: none;
     }
-
     /*destinos*/
-    .destinos-1 h1 {
-        font-size: 30px;
+
+    .section-destinos { 
+    display: flex;
+    flex-direction: column;
     }
-    .section-destinos {
-       display: flex;
-       flex-direction: column;
-    }
-
-
-
     .img {
-        width: 330px;
+        max-width: 100%;
+        height: auto;
     }
 
-    /*servicios corporativos*/
-    .corporativos-container {
-      height: 900px;
-      display: flex;
-      flex-direction: column;
+    .destinos-text {
+        max-width: 100%;
+        height: auto;
      }
 
+    /*servicios corporativos*/
+
+    .corporativos-container {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    
      /*acerca de nosotros*/
      .seccionnosotros h1  {
          margin-inline-end: 40px;
@@ -99,7 +131,13 @@ font-size: 35px;
      .imagensummer {
         display: none;
     }
-   
 
-
+    /*contacto*/
+    .formulario {
+        width: auto;
+    }
 }
+
+
+/*media queris para desktop*/
+

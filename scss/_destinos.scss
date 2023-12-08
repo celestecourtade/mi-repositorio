@@ -4,31 +4,32 @@
 
 
 .section-destinos  {
-    margin-inline: 65px;
-    padding: 10px;
-    display: flex;
+  margin-inline: 65px;
 }
 
 .destinos-1 h1 {
-    background-color: $blue;
-    margin: 9px;
-    text-align: center;
-    color: $blanco;
-    margin-inline: 75px;
+  background-color: #0582CA ;
+  margin: 9px;
+  text-align: center;
+  color: #ffffff;
+  margin-inline: 75px;
 }
 
+
+.section-destinos {
+  padding: 10px;
+  display: flex;
+}
 
 .destinos-text-1 {
 
-    background-color: $celeste;
-    padding: 4px;
-    text-align: center;
-    color: $blanco;
-
+  background-color: #4184bd;
+  padding: 4px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .img {
-    width: 400px;
-    height: 240px;
+  width: 400px;
+  height: 240px;
 }
-
