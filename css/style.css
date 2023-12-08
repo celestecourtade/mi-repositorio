@@ -342,9 +342,6 @@ a {
   .carousel {
     display: none;
   }
-  .encabezado1 {
-    display: none;
-  }
   /*destinos*/
   .destinos-1 h1 {
     font-size: 35px;
@@ -358,6 +355,9 @@ a {
   }
   .destinos-text-1 {
     padding: 20px;
+  }
+  .card-img-top {
+    height: auto;
   }
   /*servicios coporativos*/
   .corporativos-container {
@@ -378,9 +378,6 @@ a {
 @media (max-width: 480px) and (min-width: 320px) {
   /*index*/
   .carousel {
-    display: none;
-  }
-  .encabezado1 {
     display: none;
   }
   .col2 {

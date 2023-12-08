@@ -8,9 +8,7 @@
 .carousel {
     display: none;
 }
-.encabezado1 {
-    display: none;
-}
+
 /*destinos*/
 .destinos-1 h1 {
 font-size: 35px;
@@ -28,6 +26,9 @@ font-size: 35px;
     padding: 20px;
 }
 
+.card-img-top {
+    height: auto;
+  }
 
 
  /*servicios coporativos*/
@@ -59,10 +60,6 @@ font-size: 35px;
         display: none; 
     }
 
-    .encabezado1 {
-        display: none;
-    }
-
     .col2 {
         display: flex;
         flex-direction: column;
@@ -80,6 +77,8 @@ font-size: 35px;
        display: flex;
        flex-direction: column;
     }
+
+
 
     .img {
         width: 330px;
