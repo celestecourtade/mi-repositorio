@@ -2,14 +2,7 @@
 
 /*main*/
 
-.servicio-empresa {
-    background-image:   url('../img/playadefondo.jpg');
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    margin: 10px;
-    
-}
- .servicios h2 {
+ .servicios h1 {
     background-color: $blue ;
     margin: 9px;
     padding: 7px;
@@ -18,16 +11,6 @@
     color: $blanco;
 }
 
-.empresa h1 {
-    text-align: center;
-    padding: 20px;
-    color: $azul-empresa;
-}
-
-.empresa-text  {
-    padding: 10px;
-    color:  $azul-text;
-}
 
 .corporativos-container {
     display: flex;
@@ -35,6 +18,7 @@
     align-items: center;
     background-color: $negro;
     margin: 10px;
+    height: 400px;
     
   }
   
@@ -48,6 +32,6 @@
     height: auto;
   }
 
-  .servicios-text h3 {
+  .servicios-text h2 {
     font-size: 15px;
   }

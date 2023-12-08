@@ -1,93 +1,106 @@
 /* M E D I A  Q U E R I E S /*
 
 /* Media query para tablet*/
+/*index*/
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and  (max-width: 768px)  {
 
-    /*index*/
-    .carousel {
-    height: 390px; }
-    .card-group {
-        padding-inline: 20px;
-    }
-
-/*seccion destinos*/
-    .section-1 {
+.carousel {
+    display: none;
+}
+.encabezado1 {
+    display: none;
+}
+/*destinos*/
+.destinos-1 h1 {
+font-size: 35px;
+}
+.section-destinos {
     display: flex;
-    }
-    
-    /*seccion servicios corporativos*/
-    .corporativos-container {
+    flex-direction: column;
+}
+
+.img {
+    width: 618px;
+}
+
+.destinos-text-1 {
+    padding: 20px;
+}
+
+
+
+ /*servicios coporativos*/
+
+ .corporativos-container {
+    height: 900px;
+    padding: 30px;
+    display: flex;
     flex-direction: column;
     }
-    /*seccion acerca de nosotros*/
+
+ /*acerca de nosotros*/
     .imagensummer {
         display: none;
     }
+
+    .seccionnosotros h1 {
+        margin-inline-end: 39px;
+    }
+
 }
   
 
 /* Media query para mobile*/
 
-
-@media (max-width: 320px) {
-
+@media (max-width: 480px) and (min-width: 320px) {  
     /*index*/
     .carousel {
-    display: none;}
- 
-    .destinos h2 {
-        font-size: 15px;
+        display: none; 
     }
 
-    .nosotros h2 {
-        font-size: 15px;
-    }
-    .recomendaciones-clientes h2 {
-        font-size: 15px;
+    .encabezado1 {
+        display: none;
     }
 
-
-    /*seccion destinos*/
-
-
-    .destinos-1 h2 {
-        font-size: 15px;
+    .col2 {
+        display: flex;
+        flex-direction: column;
     }
 
+    .imagenbanner {
+        display: none;
+    }
+
+    /*destinos*/
+    .destinos-1 h1 {
+        font-size: 30px;
+    }
     .section-destinos {
-    display: flex;
-    flex-direction: column;
+       display: flex;
+       flex-direction: column;
     }
 
     .img {
-        width: 300px;
+        width: 330px;
     }
 
     /*servicios corporativos*/
-    .empresa h1 {
-        font-size: 15px;
+    .corporativos-container {
+      height: 900px;
+      display: flex;
+      flex-direction: column;
+     }
 
+     /*acerca de nosotros*/
+     .seccionnosotros h1  {
+         margin-inline-end: 40px;
+     }
+
+     .imagensummer {
+        display: none;
     }
+   
 
-     .servicios h2 {
-        font-size: 15px;
-     }
-    /*seccion acerca de nostros*/
-     .seccionnosotros h2 {
-        font-size: 15px;
 
-     }
-
-     /*seccion contacto*/
-     .formulario { 
-     margin: 20px 20px 20px 20px;
-
-     }
-
-     .formulario-servicios h3 {
-        font-size: 15px;
-
-     }
-  }
-  
+}
